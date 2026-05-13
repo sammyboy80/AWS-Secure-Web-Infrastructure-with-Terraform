@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Secrets
+*.pem
+terraform.tfvars
+
+# Terraform plans
+*.tfplan
+
+# Crash logs
+crash.log
