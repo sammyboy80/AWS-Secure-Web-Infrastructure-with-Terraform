@@ -63,8 +63,35 @@ Auto Scaling Group with multiple EC2 instances
 Health checks integrated with Target Groups
 
 
+
 Monitoring & Alerts
 CloudWatch alarms for EC2 CPU utilization
 CloudWatch alarms for RDS CPU utilization
 SNS email notifications for infrastructure alerts
 ALB target health monitoring
+
+
+Terraform Remote Backend
+
+The project uses:
+
+S3 backend for remote Terraform state
+Versioning enabled for state recovery
+AES256 encryption enabled
+
+
+
+Terraform Project Structure
+
+provider.tf
+backend.tf
+outputs.tf
+vpc.tf
+ec2.tf
+alb.tf
+iam.tf
+monitoring.tf
+rds.tf
+s3.tf
+autoscaling.tf
+launch-template.tf
