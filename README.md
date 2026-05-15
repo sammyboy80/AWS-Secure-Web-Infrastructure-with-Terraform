@@ -17,6 +17,7 @@ The infrastructure was deployed in the AWS eu-west-1 region using Terraform.
 
 
 AWS Services Used
+
 Service	Purpose
 Amazon VPC	Isolated networking environment
 Public & Private Subnets	Segmentation and security
@@ -36,24 +37,32 @@ Terraform S3 Backend	Remote state management.
 
 Infrastructure Features
 Networking
+
+
 Custom VPC with CIDR segmentation
 Two public subnets across multiple Availability Zones
 Two private subnets across multiple Availability Zones
 Route Tables and Internet Gateway configuration
 NAT Gateway for private subnet outbound traffic
+
 Security
+
 IAM roles attached to EC2 instances
 No hardcoded AWS credentials
 Private RDS deployment (publicly_accessible = false)
 Security Groups with least-privilege access
 S3 public access blocking enabled
 S3 encryption enabled using AES256
+
 Terraform remote backend protected with versioning
+
 High Availability
 Multi-AZ subnet architecture
 Application Load Balancer across public subnets
 Auto Scaling Group with multiple EC2 instances
 Health checks integrated with Target Groups
+
+
 Monitoring & Alerts
 CloudWatch alarms for EC2 CPU utilization
 CloudWatch alarms for RDS CPU utilization
