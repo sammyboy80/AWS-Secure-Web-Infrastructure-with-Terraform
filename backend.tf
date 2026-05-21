@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "manchester-terraform-2026-state"
+    bucket = "cloud-devops-terraform-state-108865094397"
     key    = "dev/terraform.tfstate"
     region = "eu-west-1"
   }

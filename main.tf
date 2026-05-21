@@ -1,6 +1,8 @@
 resource "aws_s3_bucket" "terraform_state" {
   bucket = "manchester-terraform-2026-state"
 
+
+
   tags = {
     Name        = "terraform-state"
     Environment = "learning"
