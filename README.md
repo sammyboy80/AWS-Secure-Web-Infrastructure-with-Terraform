@@ -1,5 +1,10 @@
 # AWS Secure Web Infrastructure with Terraform
 
+![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?logo=terraform&logoColor=white)
+![DevSecOps](https://img.shields.io/badge/DevSecOps-Enabled-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ## Project Overview
 
 This project demonstrates the design and deployment of a secure, scalable, and production-style AWS cloud infrastructure using Terraform.
@@ -19,6 +24,8 @@ Built as a hands-on **Cloud Engineering & DevOps portfolio project**, it showcas
 ---
 
 ## Architecture Diagram
+
+"The diagram below illustrates the multi-tier architecture across two availability zones" 
 
 <img width="1536" height="1024" alt="architecture-diagram" src="https://github.com/user-attachments/assets/6c9e3f0f-f50b-4632-9e81-5ec6809473dc" />
 
@@ -178,6 +185,7 @@ terraform apply
 
 ## Author
 
-**(Bidemi Olawumi)**  
+
+**Bidemi Olawumi**  
 Cloud Security Engineer | DevSecOps  
-[GitHub](https://github.com/sammyboy80)
+[GitHub](https://github.com/sammyboy80) · [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE-URL)
