@@ -91,9 +91,10 @@ The RDS master password supplied through the Terraform variable `var.db_password
 
 I fixed the issue by supplying a stronger password using an environment variable instead of hardcoding it in Terraform files:
 
-```bash
-export TF_VAR_db_password='!'
 ```
+export TF_VAR_db_password='<your-secure-password-min-8-chars>'
+```
+Note: Replace with a strong password of at least 8 characters containing letters, numbers, and symbols. Never commit real passwords to source code.
 
 Terraform automatically maps environment variables prefixed with `TF_VAR_` to Terraform input variables. In this case, `TF_VAR_db_password` was used as the value for:
 
